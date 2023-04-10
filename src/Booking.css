@@ -1,0 +1,78 @@
+.booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.booking-card {
+  width: 70%;
+  display: flex;
+  background-color: #f5f5f5;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card-image {
+  flex: 1;
+  padding: 1rem;
+}
+
+.booking-card-image img {
+  width: 100%;
+}
+
+.booking-card-details {
+  flex: 2;
+  padding: 1rem;
+}
+
+.candidate-name {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+.candidate-location {
+  font-size: 1.5rem;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+.candidate-bio {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.company-logos {
+  display: flex;
+}
+
+.company-logos img {
+  height: 5vh;
+  margin-right: 0.5rem;
+  padding-right: 15px;
+}
+
+.booking-buttons {
+  display: flex;
+  margin-top: 1rem;
+  padding: 20px;
+}
+
+.message-button,
+.schedule-button {
+  flex: 1;
+  margin-right: 0.5rem;
+  padding: 20px;
+}
+
+.message-button {
+  background-color: #55b6bb;
+  color: #fff;
+  border: none;
+}
+
+.schedule-button {
+  background-color: #fe886e;
+  color: #fff;
+  border: none;
+}

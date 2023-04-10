@@ -1,0 +1,78 @@
+.ConfirmationPage {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 20vh;
+  width: 60%;
+}
+
+.response1 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  padding-left: 30px;
+}
+
+.followup {
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  padding-left: 30px;
+}
+
+.followup2 {
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  padding-left: 30px;
+}
+
+.followup3 {
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  padding-left: 30px;
+}
+
+.followup4 {
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  padding-left: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-left: 30px;
+}
+
+.yes-button,
+.no-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.yes-button {
+  background-color: #d8cfd0;
+  color: white;
+}
+
+.yes-button:hover {
+  background-color: #55b6bb;
+}
+
+.no-button {
+  background-color: #d8cfd0;
+  color: white;
+}
+
+.no-button:hover {
+  background-color: #f76c71;
+}

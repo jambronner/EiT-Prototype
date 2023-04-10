@@ -1,0 +1,82 @@
+.card-carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  overflow: hidden;
+}
+
+.card-carousel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card {
+  flex: 0 0 calc(100% / 3);
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    filter 0.3s ease-in-out;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+}
+
+.card.active {
+  transform: scale(1.2) translateY(-50%);
+  z-index: 2;
+  opacity: 1;
+  filter: none;
+}
+
+.card.prev,
+.card.next {
+  transform: scale(0.8);
+  z-index: 1;
+}
+
+.card.prev {
+  filter: blur(3px);
+  z-index: 1;
+}
+
+.card.next {
+  filter: blur(3px) brightness(0.8);
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.icons {
+  height: 10vh;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding-right: 50px;
+}
+
+.icons li {
+  margin: 0 5px;
+}
+
+.bullet-points {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.bullet-points li {
+  margin-bottom: 5px;
+}

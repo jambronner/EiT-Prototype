@@ -1,0 +1,57 @@
+.womanimg {
+  width: 10vw;
+  margin-left: 80px;
+}
+
+.workshop {
+  width: 10vw;
+  margin-left: 80px;
+}
+
+.helpgrow {
+  width: 10vw;
+  margin-left: 80px;
+}
+
+.rec_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.recommendation-section {
+  width: 70%;
+  display: flex;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.recommendation-section:hover {
+  transform: scale(1.1); /* Apply scale transform on hover */
+}
+
+.recommendation-image {
+  flex: 0 0 30%;
+  margin-right: 20px;
+}
+
+.recommendation-content {
+  flex: 1;
+  padding-top: 20px;
+}
+
+.recommendation-content h3 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.recommendation-content p {
+  font-size: 20px;
+  margin-top: 10px;
+}
