@@ -1,9 +1,9 @@
 import React, { useRef, useEffect, useState } from "react";
 import lottie from "lottie-web";
 import "./RecommendationPage.css";
-import woman_cosAnimationData from "../public/lotties/woman_cos";
-import workshopAnimationData from "../public/lotties/workshop.json";
-import helpgrowAnimationData from "../public/lotties/helpgrow.json";
+import woman_cosAnimationData from "./lotties/woman_cos";
+import workshopAnimationData from "./lotties/workshop.json";
+import helpgrowAnimationData from "./lotties/helpgrow.json";
 import LoadingPage from "./LoadingPage";
 import TalentList from "./TalentList";
 

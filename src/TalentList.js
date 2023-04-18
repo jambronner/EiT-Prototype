@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./TalentList.css";
-import JordanB from "../public/CandidateImages/JordanBImg.jpeg";
-import AnikaS from "../public/CandidateImages/AnikaSImg.jpeg";
-import MichelleM from "../public/CandidateImages/MichelleMImg.jpeg";
-import Google from "../public/CandidateImages/google.png";
-import Snap from "../public/CandidateImages/snapchat.png";
-import Asana from "../public/CandidateImages/Asana.png";
-import Slack from "../public/CandidateImages/slack.png";
+import JordanB from "./CandidateImages/JordanBImg.jpeg";
+import AnikaS from "./CandidateImages/AnikaSImg.jpeg";
+import MichelleM from "./CandidateImages/MichelleMImg.jpeg";
+import Google from "./CandidateImages/google.png";
+import Snap from "./CandidateImages/snapchat.png";
+import Asana from "./CandidateImages/Asana.png";
+import Slack from "./CandidateImages/slack.png";
 import LoadingPage from "./LoadingPage";
 import BookingPage from "./Booking";
 
